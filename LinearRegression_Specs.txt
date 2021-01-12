@@ -1,0 +1,39 @@
+
+Attached Files:
+
+    File 2020.csv (17.515 KB) 
+
+############Quiz 3 instructions#############
+##Download the file 2020.csv from Blackboard into your working directory.
+##I will have this file downloaded in my working directory, so do not worry about adding extra folder information.
+###Evaluate the dataset for missing data and for numerical data types.
+##Place a command to remove all variables from your environment at the very beginning of your script
+###For each model, include the following:
+###a. Your final model equation
+###b. An interpretation of important output statistics from the regression including:
+## your overall model test and whether it was statistically significant,
+## the R-squared/adjusted R squared in comments,
+## the results of the hypothesis test and an interpretation as to what it means.  
+
+#####c. Model diagnostics including statistics and visualizations:
+#- Assess linearity of each model
+#- Assess normality of residual distribution for each model
+#- Assess independence of errors for each model
+#- Assess heteroskedasticity for each model
+#- Determine if there any outliers for each model?
+##if outliers are present, name the most problematic outlier row(s) found in the initial model assessment in the comments.
+##Run the model with/without the most problematic outlier(s) to see if the model improves.
+##give a rationale for why you should keep the outliers or remove them from the interpretation of the model.
+
+
+##Model 1. Does GDP.per.capita predict Happiness?
+##Test GDP.per.capita as the X variable, and Happiness as the Y variable.
+##Save the model as lmhappy
+
+##Model 2. Does Perceptions.of.corruption predict Happiness?
+##Test Perceptions.of.corruption as the X variable, and Happiness as the Y variable.
+##Save the model as lmcorrupt
+
+##Model 3. Does Generosity predict Happiness?
+##Test Generosity as the X variable, and Happiness as the Y variable.
+##Save the model as lmgenerosity
